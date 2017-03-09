@@ -62,7 +62,10 @@ nav a:visted {
 
 nav a.selected,
 nav a:hover {
-  color: #ee4b3e; }
+  color: #ee4b3e;
+  transition: .5s;
+}
+
 
 nav ul {
   list-style-type: none;
@@ -102,14 +105,15 @@ div .img {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  opacity: 0.6;
+  filter: contrast(60%);
   box-shadow: 5px 5px 5px grey;
-  transition: .5s; }
+  transition: 1s; }
 
 div .img:hover {
-  opacity: 1;
+  filter: contrast(100%);
   background: rgba(160, 250, 100, 0.5);
-  box-shadow: none; }
+  box-shadow: none;
+}
 
 div .desc {
   padding: 15px;
@@ -126,10 +130,14 @@ PAGE: ABOUT
   display: block;
   max-width: 250px;
   margin: 0 auto 30px;
-  border-radius: 100%; }
+  border-radius: 100%;
+  transition: 1s;
+}
 
 .profile-photo:hover {
-  border: 5px solid lightgreen; }
+  border: 5px solid lightgreen;
+  transform: rotateX(360deg);
+}
 
 /************************************************
 MY SKILLS ( JQUERY )
@@ -379,7 +387,23 @@ header {
 
 h1,
 h2 {
-  color: #fff; }
+  color: #fff;
+  animation-name: titleAnimate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+  @keyframes titleAnimate {
+    0%,100% {
+      text-shadow: 2px 2px 6px purple;
+    }
+    50% {
+      text-shadow: 2px 2px 6px blue;
+    }
+
+    }
+  }
 
 .skills span h1 {
   color: #9999;
