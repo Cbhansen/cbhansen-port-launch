@@ -124,26 +124,57 @@ div .img {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  filter: contrast(60%);
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 0px 0px 50px black;
   transition: 1s;
 }
 
-div .img:hover {
-  filter: contrast(100%);
-  background: rgba(160, 250, 100, 0.5);
-  box-shadow: none;
+div .img-container {
+  width: 100%;
+  position: relative;
 }
 
-div .desc {
-  padding: 15px;
-  text-align: center;
-  color: #333;
+div .img .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background: rgba(88, 248, 171, .9);
 }
 
-div .img:hover div.desc {
-  color: red;
+div .img-container:hover .overlay {
+  opacity: 1;
 }
+
+div .img .desc {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+// div .img:hover {
+//   filter: contrast(100%);
+//   background: rgba(160, 250, 100, 0.5);
+//   box-shadow: none;
+// }
+//
+// div .desc {
+//   padding: 15px;
+//   text-align: center;
+//   color: #333;
+// }
+//
+// div .img:hover div.desc {
+//   color: red;
+// }
 
 /************************************************
 PAGE: ABOUT
@@ -396,7 +427,12 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ee4b3e; }
+  color: #ee4b3e;
+ }
+
+ footer .fa {
+   margin: 5px;
+ }
 
 footer .fa:hover {
   color: lightgreen;
