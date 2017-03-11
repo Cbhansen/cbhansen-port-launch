@@ -1,22 +1,28 @@
+
 /************************************************
 GENERAL
 ************************************************/
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
-  font-family: Trirong; }
+  font-family: Trirong;
+}
 
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
-  display: none; }
+  display: none;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 /************************************************
 Header
@@ -25,23 +31,27 @@ header {
   float: left;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
-  width: 100%; }
+  width: 100%;
+}
 
 #logo {
   margin: 0;
-  text-align: center; }
+  text-align: center;
+}
 
 h1 {
   font-family: 'Abril Fatface' , sans-serif;
   margin: 15px 0;
   font-size: 2em;
   font-weight: normal;
-  line-height: .8; }
+  line-height: .8;
+}
 
 h2 {
   font-size: .75em;
   margin: -5px 0 0;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 /************************************************
 NAVIGATION
@@ -51,35 +61,44 @@ nav ul {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 nav {
-  background: #12f6e9; }
+  background: #12f6e9;
+}
 
 nav a,
 nav a:visted {
-  color: #fff; }
+  color: #fff;
+}
 
 nav a.selected,
 nav a:hover {
   color: #ee4b3e;
-  transition: .5s; }
+  transition: .5s;
+}
+
 
 nav ul {
   list-style-type: none;
   margin: 0 10px;
-  padding: 0; }
+  padding: 0;
+}
 
 nav li {
-  display: inline-block; }
+  display: inline-block;
+}
 
 nav a {
   font-weight: bold;
-  padding: 10px 10px; }
+  padding: 10px 10px;
+}
 
 header a h1:hover,
 header a h2:hover {
-  color: #ee4b3e; }
+  color: #ee4b3e;
+}
 
 /************************************************
 BANNER
@@ -88,13 +107,15 @@ BANNER
   width: 100%;
   height: auto;
   background-color: #58f8ab;
-  border-bottom: 2px solid #ebff33; }
+  border-bottom: 2px solid #ebff33;
+}
 
 .banner-container {
   text-align: center;
   color: #fff;
   font-size: 30px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+}
 
 /************************************************
 Page: Portfolio
@@ -105,20 +126,24 @@ div .img {
   float: left;
   filter: contrast(60%);
   box-shadow: 5px 5px 5px grey;
-  transition: 1s; }
+  transition: 1s;
+}
 
 div .img:hover {
   filter: contrast(100%);
   background: rgba(160, 250, 100, 0.5);
-  box-shadow: none; }
+  box-shadow: none;
+}
 
 div .desc {
   padding: 15px;
   text-align: center;
-  color: #333; }
+  color: #333;
+}
 
 div .img:hover div.desc {
-  color: red; }
+  color: red;
+}
 
 /************************************************
 PAGE: ABOUT
@@ -128,11 +153,13 @@ PAGE: ABOUT
   max-width: 250px;
   margin: 0 auto 30px;
   border-radius: 100%;
-  transition: 1s; }
+  transition: 1s;
+}
 
 .profile-photo:hover {
   border: 5px solid lightgreen;
-  transform: rotateX(360deg); }
+  transform: rotateX(360deg);
+}
 
 /************************************************
 MY SKILLS ( JQUERY )
@@ -144,7 +171,8 @@ MY SKILLS ( JQUERY )
   width: 50%;
   margin: 0 auto;
   margin-top: 100px;
-  text-align: center; }
+  text-align: center;
+}
 
 /*******************************************
 html-skills
@@ -152,22 +180,20 @@ html-skills
 .html-skills {
   position: relative;
   width: 100%; }
-
-.html-skills h3 {
-  display: block;
-  width: 100%;
-  height: auto; }
-
-.html-skills .html-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(100, 100, 255, 0.5);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease; }
+  .html-skills h3 {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .html-skills .html-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(100, 100, 255, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease; }
 
 .html-skills:hover .html-overlay {
   width: 99%; }
@@ -178,22 +204,20 @@ CSS SKILLS
 .css-skills {
   position: relative;
   width: 100%; }
-
-.css-skills h3 {
-  display: block;
-  width: 100%;
-  height: auto; }
-
-.css-skills .css-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(100, 100, 255, 0.5);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease; }
+  .css-skills h3 {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .css-skills .css-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(100, 100, 255, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease; }
 
 .css-skills:hover .css-overlay {
   width: 95%; }
@@ -204,22 +228,20 @@ JavaScript Skills
 .js-skills {
   position: relative;
   width: 100%; }
-
-.js-skills h3 {
-  display: block;
-  width: 100%;
-  height: auto; }
-
-.js-skills .js-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(100, 100, 255, 0.5);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease; }
+  .js-skills h3 {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .js-skills .js-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(100, 100, 255, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease; }
 
 .js-skills:hover .js-overlay {
   width: 40%; }
@@ -230,22 +252,20 @@ JQUERY SKILLS
 .jquery-skills {
   position: relative;
   width: 100%; }
-
-.jquery-skills h3 {
-  display: block;
-  width: 100%;
-  height: auto; }
-
-.jquery-skills .jquery-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(100, 100, 255, 0.5);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease; }
+  .jquery-skills h3 {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .jquery-skills .jquery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(100, 100, 255, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease; }
 
 .jquery-skills:hover .jquery-overlay {
   width: 55%; }
@@ -256,22 +276,20 @@ FOUNDATION
 .foundation-skills {
   position: relative;
   width: 100%; }
-
-.foundation-skills h3 {
-  display: block;
-  width: 100%;
-  height: auto; }
-
-.foundation-skills .foundation-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(100, 100, 255, 0.5);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease; }
+  .foundation-skills h3 {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .foundation-skills .foundation-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(100, 100, 255, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease; }
 
 .foundation-skills:hover .foundation-overlay {
   width: 70%; }
@@ -282,22 +300,20 @@ BOOTSTRAP
 .bootstrap-skills {
   position: relative;
   width: 100%; }
-
-.bootstrap-skills h3 {
-  display: block;
-  width: 100%;
-  height: auto; }
-
-.bootstrap-skills .bootstrap-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(100, 100, 255, 0.5);
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease; }
+  .bootstrap-skills h3 {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .bootstrap-skills .bootstrap-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(100, 100, 255, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease; }
 
 .bootstrap-skills:hover .bootstrap-overlay {
   width: 20%; }
@@ -397,7 +413,9 @@ header h1 {
   animation-name: titleAnimate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out; }
+  animation-timing-function: ease-in-out;
+}
+
 
 .skills span h1 {
   color: #9999;
@@ -410,16 +428,23 @@ small {
 a {
   color: #6ab47b; }
 
+//COG WHEEL
 #cog-wheel {
-  color: grey; }
+  color: grey;
+}
 
 /************************************************
 ANIMATIONS
 ************************************************/
-@keyframes titleAnimate {
-  0%,100% {
-    text-shadow: 2px 2px 6px purple; }
-  50% {
-    text-shadow: 2px 2px 6px blue; } }
 
-/*# sourceMappingURL=styles.css.map */
+//TITLE ANIMATION
+
+  @keyframes titleAnimate {
+    0%,100% {
+      text-shadow: 2px 2px 6px purple;
+    }
+    50% {
+      text-shadow: 2px 2px 6px blue;
+    }
+
+    }
