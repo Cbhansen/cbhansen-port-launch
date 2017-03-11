@@ -398,6 +398,10 @@ footer {
   padding-top: 50px;
   color: #ee4b3e; }
 
+footer .fa:hover {
+  color: lightgreen;
+}
+
 /************************************************
 COLORS
 ************************************************/
@@ -431,6 +435,10 @@ a {
 //COG WHEEL
 #cog-wheel {
   color: grey;
+}
+
+footer .btn-disabled {
+  pointer-events: none;
 }
 
 /************************************************
