@@ -44,6 +44,9 @@ h2 {
   font-weight: normal; }
 
 /************************************************
+CALLOUT
+************************************************/
+/************************************************
 NAVIGATION
 ************************************************/
 nav,
@@ -84,18 +87,6 @@ header a h2:hover {
 /************************************************
 BANNER
 ************************************************/
-.banner {
-  width: 100%;
-  height: auto;
-  background-color: #58f8ab;
-  border-bottom: 2px solid #ebff33; }
-
-.banner-container {
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
-  padding-bottom: 10px; }
-
 /************************************************
 Page: Portfolio
 ************************************************/
@@ -388,6 +379,11 @@ textarea {
 .button {
   padding-left: 90px;
   margin-left: .4em; }
+
+#secondary .contact-info {
+  padding-right: 20px; }
+  #secondary .contact-info a {
+    padding-left: 10px; }
 
 /************************************************
 FOOTER

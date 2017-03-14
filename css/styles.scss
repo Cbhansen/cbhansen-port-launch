@@ -57,6 +57,23 @@ h2 {
 }
 
 /************************************************
+CALLOUT
+************************************************/
+
+// .callout {
+//   background: url('../images/banner-bg.png');
+//   background-repeat:no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   height: 500px;
+//     .callout-title {
+//       width: 90%;
+//       text-align: center;
+//     }
+// }
+
+
+/************************************************
 NAVIGATION
 ************************************************/
 nav,
@@ -106,19 +123,7 @@ header a h2:hover {
 /************************************************
 BANNER
 ************************************************/
-.banner {
-  width: 100%;
-  height: auto;
-  background-color: #58f8ab;
-  border-bottom: 2px solid #ebff33;
-}
 
-.banner-container {
-  text-align: center;
-  color: #fff;
-  font-size: 30px;
-  padding-bottom: 10px;
-}
 
 /************************************************
 Page: Portfolio
@@ -410,6 +415,13 @@ textarea {
 .button {
   padding-left: 90px;
   margin-left: .4em; }
+
+  #secondary .contact-info {
+    padding-right: 20px;
+      a {
+        padding-left: 10px;
+      }
+  }
 
 /************************************************
 FOOTER
