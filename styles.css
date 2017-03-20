@@ -1,31 +1,22 @@
-
 /************************************************
 GENERAL
 ************************************************/
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  font-family: Trirong;
-}
+  font-family: Trirong; }
 
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
-  display: none;
-}
+  display: none; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 img {
-  max-width: 100%;
-}
-
-
-
+  max-width: 100%; }
 
 /************************************************
 Header
@@ -34,45 +25,27 @@ header {
   float: left;
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
-  width: 100%;
-}
+  width: 100%; }
 
 #logo {
   margin: 0;
-  text-align: center;
-}
+  text-align: center; }
 
 h1 {
   font-family: 'Abril Fatface' , sans-serif;
   margin: 15px 0;
   font-size: 2em;
   font-weight: normal;
-  line-height: .8;
-}
+  line-height: .8; }
 
 h2 {
   font-size: .75em;
   margin: -5px 0 0;
-  font-weight: normal;
-}
+  font-weight: normal; }
 
 /************************************************
 CALLOUT
 ************************************************/
-
-// .callout {
-//   background: url('../images/banner-bg.png');
-//   background-repeat:no-repeat;
-//   background-position: center;
-//   background-size: cover;
-//   height: 500px;
-//     .callout-title {
-//       width: 90%;
-//       text-align: center;
-//     }
-// }
-
-
 /************************************************
 NAVIGATION
 ************************************************/
@@ -81,50 +54,39 @@ nav ul {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 nav {
-  background: #12f6e9;
-}
+  background: #12f6e9; }
 
 nav a,
 nav a:visted {
-  color: #fff;
-}
+  color: #fff; }
 
 nav a.selected,
 nav a:hover {
   color: #ee4b3e;
-  transition: .5s;
-}
-
+  transition: .5s; }
 
 nav ul {
   list-style-type: none;
   margin: 0 10px;
-  padding: 0;
-}
+  padding: 0; }
 
 nav li {
-  display: inline-block;
-}
+  display: inline-block; }
 
 nav a {
   font-weight: bold;
-  padding: 10px 10px;
-}
+  padding: 10px 10px; }
 
 header a h1:hover,
 header a h2:hover {
-  color: #ee4b3e;
-}
+  color: #ee4b3e; }
 
 /************************************************
 BANNER
 ************************************************/
-
-
 /************************************************
 Page: Portfolio
 ************************************************/
@@ -134,13 +96,11 @@ div .img {
   float: left;
   box-shadow: 0px 0px 50px black;
   transition: 1s;
-  text-align: center;
-}
+  text-align: center; }
 
 div .img-container {
   width: 100%;
-  position: relative;
-}
+  position: relative; }
 
 div .img .overlay {
   position: absolute;
@@ -152,26 +112,21 @@ div .img .overlay {
   width: 100%;
   opacity: 0;
   transition: 1s ease;
-  background-color: lightgreen;
-}
+  background-color: lightgreen; }
 
 div .img-container:hover .overlay {
-  opacity: .7;
-}
+  opacity: .7; }
 
 div .img .desc {
   font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-}
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
 
 div .img .desc .fa {
-  color: black;
-}
-
+  color: black; }
 
 /************************************************
 PAGE: ABOUT
@@ -181,13 +136,11 @@ PAGE: ABOUT
   max-width: 250px;
   margin: 0 auto 30px;
   border-radius: 100%;
-  transition: 1s;
-}
+  transition: 1s; }
 
 .profile-photo:hover {
   border: 5px solid lightgreen;
-  transform: rotateX(360deg);
-}
+  transform: rotateX(360deg); }
 
 /************************************************
 MY SKILLS ( JQUERY )
@@ -199,8 +152,7 @@ MY SKILLS ( JQUERY )
   width: 50%;
   margin: 0 auto;
   margin-top: 100px;
-  text-align: center;
-}
+  text-align: center; }
 
 /*******************************************
 html-skills
@@ -208,20 +160,22 @@ html-skills
 .html-skills {
   position: relative;
   width: 100%; }
-  .html-skills h3 {
-    display: block;
-    width: 100%;
-    height: auto; }
-  .html-skills .html-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(100, 100, 255, 0.5);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease; }
+
+.html-skills h3 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.html-skills .html-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(100, 100, 255, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease; }
 
 .html-skills:hover .html-overlay {
   width: 98%; }
@@ -232,20 +186,22 @@ CSS SKILLS
 .css-skills {
   position: relative;
   width: 100%; }
-  .css-skills h3 {
-    display: block;
-    width: 100%;
-    height: auto; }
-  .css-skills .css-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(100, 100, 255, 0.5);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease; }
+
+.css-skills h3 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.css-skills .css-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 100, 255, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease; }
 
 .css-skills:hover .css-overlay {
   width: 95%; }
@@ -256,20 +212,22 @@ JavaScript Skills
 .js-skills {
   position: relative;
   width: 100%; }
-  .js-skills h3 {
-    display: block;
-    width: 100%;
-    height: auto; }
-  .js-skills .js-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(100, 100, 255, 0.5);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease; }
+
+.js-skills h3 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.js-skills .js-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 100, 255, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease; }
 
 .js-skills:hover .js-overlay {
   width: 60%; }
@@ -280,20 +238,22 @@ JQUERY SKILLS
 .jquery-skills {
   position: relative;
   width: 100%; }
-  .jquery-skills h3 {
-    display: block;
-    width: 100%;
-    height: auto; }
-  .jquery-skills .jquery-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(100, 100, 255, 0.5);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease; }
+
+.jquery-skills h3 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.jquery-skills .jquery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 100, 255, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease; }
 
 .jquery-skills:hover .jquery-overlay {
   width: 75%; }
@@ -304,20 +264,22 @@ FOUNDATION
 .foundation-skills {
   position: relative;
   width: 100%; }
-  .foundation-skills h3 {
-    display: block;
-    width: 100%;
-    height: auto; }
-  .foundation-skills .foundation-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(100, 100, 255, 0.5);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease; }
+
+.foundation-skills h3 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.foundation-skills .foundation-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 100, 255, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease; }
 
 .foundation-skills:hover .foundation-overlay {
   width: 70%; }
@@ -328,20 +290,22 @@ BOOTSTRAP
 .bootstrap-skills {
   position: relative;
   width: 100%; }
-  .bootstrap-skills h3 {
-    display: block;
-    width: 100%;
-    height: auto; }
-  .bootstrap-skills .bootstrap-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(100, 100, 255, 0.5);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease; }
+
+.bootstrap-skills h3 {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.bootstrap-skills .bootstrap-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 100, 255, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease; }
 
 .bootstrap-skills:hover .bootstrap-overlay {
   width: 60%; }
@@ -370,37 +334,30 @@ BOOTSTRAP
   background-color: lightgreen;
   box-shadow: 0px 0px 10px grey; }
 
-  /************************************************
-  Accordian
-  ************************************************/
+/************************************************
+Accordian
+************************************************/
+button.accordion {
+  background-color: #eee;
+  color: #333;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 1s ease-in-out;
+  border: 1px solid lightgreen; }
 
-  button.accordion {
-      background-color: #eee;
-      color: #333;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-      transition: 1s ease-in-out;
-      border: 1px solid lightgreen;
-  }
+button.accordion.active, button.accordion:hover {
+  background-color: #ddd; }
 
-  button.accordion.active, button.accordion:hover {
-      background-color: #ddd;
-  }
-
-  div.panel {
-      padding: 0 18px;
-      display: none;
-      background-color: white;
-      transition: 1s ease-in-out;
-  }
-
-
-
+div.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  transition: 1s ease-in-out; }
 
 /************************************************
 Page: CONTACTS
@@ -448,12 +405,10 @@ textarea {
   padding-left: 90px;
   margin-left: .4em; }
 
-  #secondary .contact-info {
-    padding-right: 20px;
-      a {
-        padding-left: 10px;
-      }
-  }
+#secondary .contact-info {
+  padding-right: 20px; }
+  #secondary .contact-info a {
+    padding-left: 10px; }
 
 /************************************************
 FOOTER
@@ -463,16 +418,13 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ee4b3e;
- }
+  color: #ee4b3e; }
 
- footer .fa {
-   margin: 5px;
- }
+footer .fa {
+  margin: 5px; }
 
 footer .fa:hover {
-  color: lightgreen;
-}
+  color: lightgreen; }
 
 /************************************************
 COLORS
@@ -489,9 +441,7 @@ header h1 {
   animation-name: titleAnimate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
+  animation-timing-function: ease-in-out; }
 
 .skills span h1 {
   color: #9999;
@@ -504,27 +454,19 @@ small {
 a {
   color: #6ab47b; }
 
-//COG WHEEL
 #cog-wheel {
-  color: grey;
-}
+  color: grey; }
 
 footer .btn-disabled {
-  pointer-events: none;
-}
+  pointer-events: none; }
 
 /************************************************
 ANIMATIONS
 ************************************************/
+@keyframes titleAnimate {
+  0%,100% {
+    text-shadow: 2px 2px 6px purple; }
+  50% {
+    text-shadow: 2px 2px 6px blue; } }
 
-//TITLE ANIMATION
-
-  @keyframes titleAnimate {
-    0%,100% {
-      text-shadow: 2px 2px 6px purple;
-    }
-    50% {
-      text-shadow: 2px 2px 6px blue;
-    }
-
-    }
+/*# sourceMappingURL=styles.css.map */
