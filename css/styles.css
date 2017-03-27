@@ -178,7 +178,7 @@ html-skills
   transition: .5s ease; }
 
 .html-skills:hover .html-overlay {
-  width: 99%; }
+  width: 98%; }
 
 /*******************************************
 CSS SKILLS
@@ -230,7 +230,7 @@ JavaScript Skills
   transition: .5s ease; }
 
 .js-skills:hover .js-overlay {
-  width: 40%; }
+  width: 60%; }
 
 /*******************************************
 JQUERY SKILLS
@@ -256,7 +256,7 @@ JQUERY SKILLS
   transition: .5s ease; }
 
 .jquery-skills:hover .jquery-overlay {
-  width: 55%; }
+  width: 75%; }
 
 /*******************************************
 FOUNDATION
@@ -308,7 +308,7 @@ BOOTSTRAP
   transition: .5s ease; }
 
 .bootstrap-skills:hover .bootstrap-overlay {
-  width: 20%; }
+  width: 60%; }
 
 .html-skills {
   background-color: lightgreen;
@@ -339,7 +339,7 @@ Accordian
 ************************************************/
 button.accordion {
   background-color: #eee;
-  color: #444;
+  color: #333;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -347,7 +347,8 @@ button.accordion {
   text-align: left;
   outline: none;
   font-size: 15px;
-  transition: 0.4s; }
+  transition: 1s ease-in-out;
+  border: 1px solid lightgreen; }
 
 button.accordion.active, button.accordion:hover {
   background-color: #ddd; }
@@ -355,7 +356,8 @@ button.accordion.active, button.accordion:hover {
 div.panel {
   padding: 0 18px;
   display: none;
-  background-color: white; }
+  background-color: white;
+  transition: 1s ease-in-out; }
 
 /************************************************
 Page: CONTACTS
