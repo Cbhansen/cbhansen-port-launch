@@ -136,11 +136,8 @@ PAGE: ABOUT
   max-width: 250px;
   margin: 0 auto 30px;
   border-radius: 100%;
-  transition: 1s; }
-
-.profile-photo:hover {
   border: 5px solid lightgreen;
-  transform: rotateX(360deg); }
+  padding: 5px; }
 
 /************************************************
 MY SKILLS ( JQUERY )
@@ -375,6 +372,7 @@ form {
   width: 400px;
   padding: 1em;
   border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px seagreen;
   border-radius: 5px; }
 
 form div + div {
